@@ -18,7 +18,7 @@ model_graph = Graph()
 with model_graph.as_default():
     tf_session = Session()
     with tf_session.as_default():
-        model = load_model('C:/Users/user/Desktop/EnginProject/malaria/models/ICModel.h5')
+        model = load_model('modelpath/ICModel.h5')
 
 
 def index(request):
